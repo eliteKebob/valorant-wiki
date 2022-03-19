@@ -50,3 +50,27 @@ header nav .navList .navItem .navLinkActive {
   background-color: #fa4454;
   color: whitesmoke;
 }
+
+@media screen and (max-width: 948px) {
+  header .brand a {
+    font-size: 1rem;
+  }
+  header nav .navList .navItem .navLink {
+    font-size: 1rem;
+  }
+  header nav .navList .navItem .navLinkActive {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  header .brand a {
+    font-size: 0.75rem;
+  }
+  header nav .navList .navItem .navLink {
+    font-size: 0.75rem;
+  }
+  header nav .navList .navItem .navLinkActive {
+    font-size: 0.75rem;
+  }
+}
