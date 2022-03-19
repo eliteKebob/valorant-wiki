@@ -8,7 +8,7 @@ const Agents = () => {
   useEffect(() => {
     fetchAgents();
     // eslint-disable-next-line
-  });
+  }, []);
   return (
     <>
       <AgentList />

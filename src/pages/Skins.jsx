@@ -1,19 +1,19 @@
 import { useContext, useEffect } from "react";
 import AppLevelContext from "../context/AppLevelContext";
-import WeaponList from "../components/Weapons/WeaponList";
+import SkinList from "../components/Skins/SkinList";
 
-const Weapons = () => {
-  const { fetchWeapons } = useContext(AppLevelContext);
+const Skins = () => {
+  const { fetchSkins } = useContext(AppLevelContext);
 
   useEffect(() => {
-    fetchWeapons();
+    fetchSkins();
     // eslint-disable-next-line
   }, []);
   return (
     <>
-      <WeaponList />
+      <SkinList />
     </>
   );
 };
 
-export default Weapons;
+export default Skins;

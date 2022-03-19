@@ -2,4 +2,6 @@ import Weapons from "./Weapons.jsx";
 import Maps from "./Maps.jsx";
 import Agents from "./Agents.jsx";
 import Landing from "./Landing.jsx";
-export { Weapons, Maps, Agents, Landing };
+import Skins from "./Skins.jsx";
+import Error from "./Error.jsx";
+export { Weapons, Maps, Agents, Landing, Skins, Error };

@@ -1,0 +1,7 @@
+.weaponList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin: 20px 0;
+}

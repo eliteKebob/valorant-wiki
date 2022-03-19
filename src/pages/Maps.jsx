@@ -1,7 +1,19 @@
-import React from "react";
+import { useContext, useEffect } from "react";
+import AppLevelContext from "../context/AppLevelContext";
+import MapList from "../components/Maps/MapList";
 
 const Maps = () => {
-  return <div>Maps</div>;
+  const { fetchMaps } = useContext(AppLevelContext);
+
+  useEffect(() => {
+    fetchMaps();
+    // eslint-disable-next-line
+  }, []);
+  return (
+    <>
+      <MapList />
+    </>
+  );
 };
 
 export default Maps;

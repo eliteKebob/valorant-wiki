@@ -30,7 +30,7 @@ const Header = () => {
                   : styles.navLink
               }
             >
-              Weapons
+              Silahlar
             </Link>
           </li>
           <li className={styles.navItem}>
@@ -40,7 +40,7 @@ const Header = () => {
                 pathMatchRoute("/maps") ? styles.navLinkActive : styles.navLink
               }
             >
-              Maps
+              Haritalar
             </Link>
           </li>
           <li className={styles.navItem}>
@@ -52,7 +52,17 @@ const Header = () => {
                   : styles.navLink
               }
             >
-              Agents
+              Ajanlar
+            </Link>
+          </li>
+          <li className={styles.navItem}>
+            <Link
+              to="/skins"
+              className={
+                pathMatchRoute("/skins") ? styles.navLinkActive : styles.navLink
+              }
+            >
+              Desenler
             </Link>
           </li>
         </ul>
