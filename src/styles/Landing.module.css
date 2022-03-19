@@ -1,0 +1,18 @@
+.landingBody {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+
+.landingBody h1 {
+  font-size: 3rem;
+}
+
+.landingBody img {
+  height: 450px;
+}
